@@ -3,7 +3,7 @@ describe('About Expects', function() {
   // We shall contemplate truth by testing reality, via spec expectations.
   it('should expect true', function() {
 
-    // Your journey begins here: Replace the word false with true 
+    // Your journey begins here: Replace the word false with true
     expect(false).toBeTruthy();
   });
 
