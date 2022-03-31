@@ -1,4 +1,4 @@
-# JavaScript Kōans
+# JavaScript Kōans (WIP)
 
 A series of tests (kōans) to help developers explore their understanding of JavaScript.
 
