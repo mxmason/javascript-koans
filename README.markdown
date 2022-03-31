@@ -1,40 +1,25 @@
-# javascript-koans
-Based on Edgecase's fantastic 
-[Ruby koans](http://github.com/edgecase/ruby_koans), the goal of the
-Javascript koans is to teach you Javascript programming through
-testing.
+# JavaScript Kōans
 
-When you first run the koans, you'll be presented with a runtime error and a
-stack trace indicating where the error occurred. Your goal is to make the
-error go away. As you fix each error, you should learn something about the
-Javascript language and functional programming in general.
+A series of tests (kōans) to help developers explore their understanding of JavaScript.
 
-Your journey towards Javascript enlightenment starts in the koans/AboutExpects.js file. These
-koans will be very simple, so don't overthink them! As you progress through
-more koans, more and more Javascript syntax will be introduced which will allow
-you to solve more complicated problems and use more advanced techniques.
+## What are the kōans?
+[Kōans](https://en.wikipedia.org/wiki/K%C5%8Dan) (公案) originate from Zen Buddhism, and are paradoxical riddles or stories used to test "students" on their path to enlightenment. The kōans in this repository are small unit tests designed to help you deepen your understanding of JavaScript. The tests themselves are written in the Jasmine testing framework.
 
-## Running the Koans
-Simply navigate to the Javascript Koans folder using a file browser, and
-double click on KoansRunnner.html. 
+If you're familiar with testing, proceed to the ["Getting started"](#getting-started) section to learn how to use this repo.
 
-Any browser will do, but for the best results Firefox or Chrome is
-recommended. More stack trace information shows up for javascript on these
-browsers.
+If you're new to testing, you might want to read the ["What are tests?"](#what-are-tests) section.
 
-The first error will be in koans/AboutExpects.js. Fix the first test and
-refresh the browser. Rinse and repeat until all tests turn green.
+This repo was originally forked from THIS_GUY'S_KOANS, and takes some addiitonal inspiration from [IronLab's JavaScript Kōans](https://github.com/ironhack-labs/lab-javascript-koans).
 
-The test runner used is [Jasmine](http://jasmine.github.io/) with a customized report viewer.
+## What are tests?
+In software development, *tests* are programs that descibe how software should behave. They run key parts of the software in a variety of situations to verify that the software is working correctly. If the software doesn't work as the test expects, the test will fail. These failures help developers catch bugs before they end up in production software. On larger teams especially, testing helps developers feel confident about the stability of their software – they do not have to understand every part of a large code base to feel some confidence that their software is working correctly.
 
-### Changelog
-*  v3 - Nov 2010  - Moved out of branch of functional-koans project, into own top level project
-*  v2 - Sept 2010 - Second version based on jasmine (Thanks Greg Malcolm!)
-*  v1 - July 2010 - First version based on jsTestDriver
+**No amount of testing can guarantee bug-free software**, but good tests are an essential part of any large-scale project.
 
-### Acknowledgements
-*  Dick Wall (the Java posse) - for bringing the idea of koans to my attention
-*  Edgecase - for the great Ruby Koans
-*  Douglas Crockford - for Javascript; the good bits
+### What's in a test?
 
-### [MIT Licensed](LICENSE)
+
+## Getting started
+To run these tests, clone this repository to your computer, then open the `index.html` file in your browser. You'll be presented with some information about failing tests, and you must edit those tests to make them pass.
+
+Begin your journey in `00-about-expects.js`. The test files are numbered sequentially, and the tests themselves get progressively more complex. Each test will prompt you to examine your knowledge of JavaScript. Remember: it's okay if you don't know something! Take these tests as far as you can go, and from there, you can look up information to deepen your understanding.
